@@ -1,0 +1,3 @@
+logging to /home/nvidia/.ros/log/98fc409c-d471-11eb-a137-26aef6c5ec48/rosout.log
+re-publishing aggregated messages to /rosout_agg
+subscribed to /rosout

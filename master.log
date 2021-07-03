@@ -1,0 +1,239 @@
+[rosmaster.main][INFO] 2021-06-24 05:23:17,010: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-06-24 05:23:17,010: Starting ROS Master Node
+[xmlrpc][INFO] 2021-06-24 05:23:17,013: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-06-24 05:23:17,013: Started XML-RPC server [http://nvidia-desktop:11311/]
+[rosmaster.master][INFO] 2021-06-24 05:23:17,014: Master initialized: port[11311], uri[http://nvidia-desktop:11311/]
+[xmlrpc][INFO] 2021-06-24 05:23:17,014: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-06-24 05:23:17,076: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,079: +PARAM [/roslaunch/uris/host_nvidia_desktop__35217] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,736: +PARAM [/device_name] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,736: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,737: +PARAM [/robot_file_path] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,737: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,737: +PARAM [/op3_manager/angle_unit] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,737: +PARAM [/init_file_path] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,738: +PARAM [/offset_file_path] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,738: +PARAM [/gazebo_robot_name] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,738: +PARAM [/gazebo] by /roslaunch
+[rosmaster.master][INFO] 2021-06-24 05:23:17,961: +SERVICE [/rosout/get_loggers] /rosout http://nvidia-desktop:35285/
+[rosmaster.master][INFO] 2021-06-24 05:23:17,963: +SERVICE [/rosout/set_logger_level] /rosout http://nvidia-desktop:35285/
+[rosmaster.master][INFO] 2021-06-24 05:23:17,968: +PUB [/rosout_agg] /rosout http://nvidia-desktop:35285/
+[rosmaster.master][INFO] 2021-06-24 05:23:17,979: +SUB [/rosout] /rosout http://nvidia-desktop:35285/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,112: +PUB [/rosout] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,113: publisherUpdate[/rosout] -> http://nvidia-desktop:35285/ ['http://nvidia-desktop:42849/']
+[rosmaster.master][INFO] 2021-06-24 05:23:18,119: +SERVICE [/op3_localization/get_loggers] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,119: publisherUpdate[/rosout] -> http://nvidia-desktop:35285/ ['http://nvidia-desktop:42849/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-06-24 05:23:18,122: +SERVICE [/op3_localization/set_logger_level] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,126: +PUB [/tf] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,136: +SUB [/robotis/pelvis_pose] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,146: +SUB [/robotis/pelvis_pose_reset] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,261: +PUB [/rosout] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,263: +SERVICE [/op3_manager/get_loggers] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,265: +SERVICE [/op3_manager/set_logger_level] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,269: +CACHEDPARAM [/rosout_disable_topics_generation] by /op3_manager
+[rosmaster.master][INFO] 2021-06-24 05:23:18,291: +SUB [/robotis/open_cr/button] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,299: +SUB [/robotis/dxl_torque] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,301: +PUB [/robotis/base/ini_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,303: +PUB [/ball_tracker/command] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,314: publisherUpdate[/rosout] -> http://nvidia-desktop:35285/ ['http://nvidia-desktop:42849/', 'http://nvidia-desktop:43259/']
+[rosmaster.master][INFO] 2021-06-24 05:23:18,317: publisherUpdate[/rosout] -> http://nvidia-desktop:35285/ ['http://nvidia-desktop:42849/', 'http://nvidia-desktop:43259/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-06-24 05:23:18,522: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2021-06-24 05:23:18,641: +SUB [/robotis/write_control_table] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,651: +SUB [/robotis/sync_write_item] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,661: +SUB [/robotis/set_joint_ctrl_modules] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,671: +SUB [/robotis/enable_ctrl_module] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,681: +SUB [/robotis/set_control_mode] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,690: +SUB [/robotis/set_joint_states] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,700: +SUB [/robotis/enable_offset] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,702: +PUB [/robotis/goal_joint_states] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,705: +PUB [/robotis/present_joint_states] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,706: +PUB [/robotis/present_joint_ctrl_modules] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,709: +SERVICE [/robotis/get_present_joint_ctrl_modules] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,711: +SERVICE [/robotis/set_present_joint_ctrl_modules] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,713: +SERVICE [/robotis/set_present_ctrl_modules] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,716: +SERVICE [/robotis/load_offset] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,938: +PUB [/robotis/status] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,941: +PUB [/robotis/open_cr/imu] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,943: +PUB [/robotis/open_cr/button] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,946: +PUB [/robotis/sync_write_item] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,957: +PUB [/robotis/movement_done] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,967: +SUB [/robotis/action/page_num] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,976: +SUB [/robotis/action/start_action] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:18,979: +SERVICE [/robotis/action/is_running] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,017: publisherUpdate[/robotis/open_cr/button] -> http://nvidia-desktop:43259/ ['http://nvidia-desktop:43259/']
+[rosmaster.master][INFO] 2021-06-24 05:23:19,019: publisherUpdate[/robotis/open_cr/button] -> http://nvidia-desktop:43259/ ['http://nvidia-desktop:43259/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-06-24 05:23:19,019: publisherUpdate[/robotis/sync_write_item] -> http://nvidia-desktop:43259/ ['http://nvidia-desktop:43259/']
+[rosmaster.master][INFO] 2021-06-24 05:23:19,021: publisherUpdate[/robotis/sync_write_item] -> http://nvidia-desktop:43259/ ['http://nvidia-desktop:43259/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-06-24 05:23:19,143: +SUB [/robotis/base/ini_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,145: +PUB [/robotis/enable_ctrl_module] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,161: +SERVICE [/robotis/walking/get_params] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,165: +SUB [/robotis/head_control/set_joint_states] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,182: +SUB [/robotis/head_control/set_joint_states_offset] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,193: +SUB [/robotis/head_control/scan_command] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,204: +SUB [/robotis/direct_control/set_joint_states] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,216: +SUB [/robotis/walking/command] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,220: +PUB [/robotis/online_walking/goal_joint_states] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,222: publisherUpdate[/robotis/enable_ctrl_module] -> http://nvidia-desktop:43259/ ['http://nvidia-desktop:43259/']
+[rosmaster.master][INFO] 2021-06-24 05:23:19,230: +SUB [/robotis/online_walking/reset_body] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,242: +SUB [/robotis/walking/set_params] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,243: publisherUpdate[/robotis/enable_ctrl_module] -> http://nvidia-desktop:43259/ ['http://nvidia-desktop:43259/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-06-24 05:23:19,245: +PUB [/robotis/pelvis_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,263: +SUB [/robotis/online_walking/goal_joint_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,279: +SUB [/robotis/tuning_module/tuning_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,290: +SUB [/robotis/online_walking/goal_kinematics_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,301: +SUB [/robotis/online_walking/foot_step_command] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,312: +SUB [/robotis/tuning_module/joint_offset_data] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,322: publisherUpdate[/robotis/pelvis_pose] -> http://nvidia-desktop:42849/ ['http://nvidia-desktop:43259/']
+[rosmaster.master][INFO] 2021-06-24 05:23:19,325: +SUB [/robotis/online_walking/walking_param] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,331: publisherUpdate[/robotis/pelvis_pose] -> http://nvidia-desktop:42849/ ['http://nvidia-desktop:43259/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-06-24 05:23:19,338: +SUB [/robotis/online_walking/wholebody_balance_msg] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,350: +SUB [/robotis/tuning_module/joint_gain_data] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,360: +SUB [/robotis/online_walking/body_offset] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,370: +SUB [/robotis/tuning_module/torque_enable] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,379: +SUB [/robotis/online_walking/foot_distance] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,389: +SUB [/robotis/tuning_module/command] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,393: +SERVICE [/robotis/tuning_module/get_present_joint_offset_data] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,400: +SUB [/robotis/online_walking/footsteps_2d] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,403: +PUB [/robotis/enable_offset] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,405: +SERVICE [/robotis/online_walking/get_joint_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,407: +SERVICE [/robotis/online_walking/get_kinematics_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,424: publisherUpdate[/robotis/enable_offset] -> http://nvidia-desktop:43259/ ['http://nvidia-desktop:43259/']
+[rosmaster.master][INFO] 2021-06-24 05:23:19,426: publisherUpdate[/robotis/enable_offset] -> http://nvidia-desktop:43259/ ['http://nvidia-desktop:43259/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-06-24 05:23:19,771: -PUB [/ball_tracker/command] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,773: -SERVICE [/robotis/load_offset] /op3_manager rosrpc://nvidia-desktop:44039
+[rosmaster.master][INFO] 2021-06-24 05:23:19,775: -SUB [/robotis/direct_control/set_joint_states] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,777: -PUB [/robotis/base/ini_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,779: -SERVICE [/robotis/online_walking/get_kinematics_pose] /op3_manager rosrpc://nvidia-desktop:44039
+[rosmaster.master][INFO] 2021-06-24 05:23:19,781: -SUB [/robotis/base/ini_pose] /op3_manager http://nvidia-desktop:43259/
+[rosmaster.master][INFO] 2021-06-24 05:23:19,827: publisherUpdate[/robotis/base/ini_pose] -> http://nvidia-desktop:43259/ []
+[rosmaster.master][INFO] 2021-06-24 05:23:19,829: publisherUpdate[/robotis/base/ini_pose] -> http://nvidia-desktop:43259/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2021-06-24 05:23:19,848: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 860, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 837, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2021-06-24 05:25:07,278: -PUB [/rosout] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:25:07,289: -PUB [/tf] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:25:07,295: -SUB [/robotis/pelvis_pose] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:25:07,300: -SUB [/robotis/pelvis_pose_reset] /op3_localization http://nvidia-desktop:42849/
+[rosmaster.master][INFO] 2021-06-24 05:25:07,307: -SERVICE [/op3_localization/get_loggers] /op3_localization rosrpc://nvidia-desktop:37513
+[rosmaster.master][INFO] 2021-06-24 05:25:07,311: -SERVICE [/op3_localization/set_logger_level] /op3_localization rosrpc://nvidia-desktop:37513
+[rosmaster.master][INFO] 2021-06-24 05:25:07,336: publisherUpdate[/rosout] -> http://nvidia-desktop:35285/ ['http://nvidia-desktop:43259/']
+[rosmaster.master][INFO] 2021-06-24 05:25:07,345: publisherUpdate[/rosout] -> http://nvidia-desktop:35285/ ['http://nvidia-desktop:43259/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-06-24 05:25:07,544: -PUB [/rosout_agg] /rosout http://nvidia-desktop:35285/
+[rosmaster.master][INFO] 2021-06-24 05:25:07,547: -SUB [/rosout] /rosout http://nvidia-desktop:35285/
+[rosmaster.master][INFO] 2021-06-24 05:25:07,549: -SERVICE [/rosout/get_loggers] /rosout rosrpc://nvidia-desktop:45235
+[rosmaster.master][INFO] 2021-06-24 05:25:07,550: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://nvidia-desktop:45235
+[rosmaster.master][INFO] 2021-06-24 05:25:07,552: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2021-06-24 05:25:07,594: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-06-24 05:25:07,594: stopping master...
+[rospy.core][INFO] 2021-06-24 05:25:07,595: signal_shutdown [atexit]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nvidia@nvidia-desktop:~$ nvidia
+-bash: nvidia: command not found
+nvidia@nvidia-desktop:~$ cd robotis/
+nvidia@nvidia-desktop:~/robotis$ source devel/setup.bash
+nvidia@nvidia-desktop:~/robotis$ roslaunch op3_manager op3_manager.launch
+... logging to /home/nvidia/.ros/log/98fc409c-d471-11eb-a137-26aef6c5ec48/roslau                                                                                                                                                             nch-nvidia-desktop-7983.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://nvidia-desktop:35217/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /device_name: /dev/ttyACM0
+ * /gazebo: False
+ * /gazebo_robot_name: robotis_op3
+ * /init_file_path: /home/nvidia/robo...
+ * /offset_file_path: /home/nvidia/robo...
+ * /op3_manager/angle_unit: 30
+ * /robot_file_path: /home/nvidia/robo...
+ * /rosdistro: melodic
+ * /rosversion: 1.14.11
+
+NODES
+  /
+    op3_localization (op3_localization/op3_localization)
+    op3_manager (op3_manager/op3_manager)
+
+auto-starting new master
+process[master]: started with pid [8030]
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to 98fc409c-d471-11eb-a137-26aef6c5ec48
+process[rosout-1]: started with pid [8045]
+started core service [/rosout]
+process[op3_manager-2]: started with pid [8048]
+process[op3_localization-3]: started with pid [8049]
+[ INFO] [1624486998.267758517]: manager->init
+[ INFO] [1624486998.307655912]: Torque on DXLs!
+/dev/ttyACM0 added. (baudrate: 2000000)
+(/dev/ttyACM0) [ID:  1]     XM430-W350 added.
+(/dev/ttyACM0) [ID:200]        OPEN-CR added.
+[ INFO] [1624486998.635006225]: Load offsets...
+[ WARN] [1624486999.150636068]: Head control - angle unit : 30
+[ INFO] [1624486999.260411797]: parse pose for moving init pose
+[ WARN] [1624486999.268585079]: Get the init gain from Dxl init file
+[ERROR] [1624486999.747902422]: [RobotisController] first bulk read fail!!
+[op3_manager-2] process has died [pid 8048, exit code 255, cmd /home/nvidia/robo                                                                                                                                                             tis/devel/lib/op3_manager/op3_manager __name:=op3_manager __log:=/home/nvidia/.r                                                                                                                                                             os/log/98fc409c-d471-11eb-a137-26aef6c5ec48/op3_manager-2.log].
+log file: /home/nvidia/.ros/log/98fc409c-d471-11eb-a137-26aef6c5ec48/op3_manager                                                                                                                                                             -2*.log
+^C[op3_localization-3] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
+nvidia@nvidia-desktop:~/robotis$ ^C
+nvidia@nvidia-desktop:~/robotis$ sudo init 0
+
+
+
+
+
+
+
+
+
+
+
