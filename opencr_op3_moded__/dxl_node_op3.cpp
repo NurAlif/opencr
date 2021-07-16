@@ -64,39 +64,15 @@ static void dxl_node_update_tx_rx_led();
      WORK    :
 ---------------------------------------------------------------------------*/
 void read4usb(){
+  data3len = 0;
+  datacheck3 = 0;
   while(Serial3.available()){
-    
     uint8_t data = Serial3.read();
-    Serial2.println(data);
-    Serial2.flush();
-    //dxl_hw_write(data);
-    buffer4usb[lenData4usb++] = data;
-    if(incommingEnd >= 0 && incommingEnd-- == 0){
-      dxl_hw_write(buffer4usb, lenData4usb);
-      Serial2.println("[");
-      for(int i = 0; i < lenData4usb; i++){
-        Serial2.println(buffer4usb[i]);
-      }
-      Serial2.println("]");
-      lenData4usb = 0;
-    }
-    
-    if(incommingLen >= 0){
-      if(incommingLen == 1){
-        // low level len byte
-        incommingEnd = data;
-      }
-      else if(incommingLen == 0){
-        // high level byte
-        incommingEnd = 256 * data + incommingEnd;
-      }
-      incommingLen--;
-    }
-
-    if( incommingLen <= -1 && data == 253 && buffer4usb[lenData4usb-2] == 255 && buffer4usb[lenData4usb-3] == 255){
-      incommingLen = 3;
-    }
+    data3[data3len++] = data;
+        
+    DXL_PORT.write(data);
   }
+  DXL_PORT.flush();
 }
 
 
